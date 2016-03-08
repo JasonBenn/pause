@@ -1,22 +1,16 @@
-This is the successor to Unplugged Life.
+Pause helps you avoid impulsive web surfing by delaying the loading of a website that you blacklisted.
+While you're waiting, Pause shows you any other site you want.
 
-Theory: Internet addiction happens when you're low on cognitive energy and you impulsively surf the web. A lack of accountability exacerbates the problem.
-
-However, blocking these sites entirely leaves you with no options for relaxing. Sometimes your brain does need a break.
-
-Pause helps you avoid the first without disabling the second: you choose the list of domains, and Pause will stop you for 5 seconds before letting you through. The 5 second pause turns indulging an impulse into a conscious decision.
-
-Finally, Pause helps you stay accountable. Pause measures the amount of time you spend on your computer, the amount of time you spend on the Internet, and the amount of time you spend on your graylisted sites. You'll see output like:
-- 8 hours today on your computer
-- 3 hours 45 minutes on the Internet
-- 2 hours 59 minutes on graylisted sites
+Pause also measures how you spend your time, for example:
+- distracted: 1:15
+- deep work: 2:45
 
 The algorithm works like so:
-- When your computer is on, Pause counts the minutes.
--
+- "distracted" means you're on a site that you blacklisted.
+- "deep work" means your computer is on but you haven't been on a blacklisted site in the last 15 minutes.
 
-The Pause screen is just an iFrame to any other site or app.
 
+------------------ WIP ------------------
 
 can be customized by any number of modules that may inspire you. Currently, modules include:
 - Inspirational quotes (taken from an Evernote file)

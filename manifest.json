@@ -1,0 +1,16 @@
+{
+  "name": "Pause",
+  "version": "1.0",
+  "description": "Reduce impulsive web surfing",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "https://www.reddit.com/*"
+  ],
+  "background": {
+    "scripts": [ "blacklist.js", "background.js" ]
+  },
+
+  "manifest_version": 2
+}
