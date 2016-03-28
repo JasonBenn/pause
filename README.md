@@ -1,3 +1,6 @@
+Lots of good examples in ~/Downloads/basic
+Use storage API instead of localStorage: https://developer.chrome.com/extensions/storage
+
 Pause helps you avoid impulsive web surfing by delaying the loading of a website that you blacklisted.
 While you're waiting, Pause shows you any other site you want.
 
