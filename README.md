@@ -1,3 +1,18 @@
+BUG: reddit: TypeError: Cannot read property 'pauseAmount' of undefined
+
+Background script sends a pulse every minute to confirm it's alive, with incrementing counter.
+
+After that, make it proportional to the time spent between interruptions.
+
+If I click a link, go there.
+
+How do I make it show up before the page even starts loading?
+
+
+I think it should just be a click on a non-whitelisted site.
+
+
+
 Lots of good examples in ~/Downloads/basic
 Use storage API instead of localStorage: https://developer.chrome.com/extensions/storage
 
